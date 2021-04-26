@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Main_image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/MainImageLogoString"
+        android:scaleType="center"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:src="@mipmap/ic_easygoband_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/Main_editText_accessGroup"
+        app:layout_constraintEnd_toStartOf="@+id/Main_textView_title"
+        app:layout_constraintStart_toStartOf="@+id/Main_editText_accessGroup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <TextView
+        android:id="@+id/Main_textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MainTextViewTitleString"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/Main_image_logo"
+        app:layout_constraintEnd_toEndOf="@+id/Main_editText_accessGroup"
+        app:layout_constraintStart_toEndOf="@+id/Main_image_logo"
+        app:layout_constraintTop_toTopOf="@+id/Main_image_logo" />
+
+    <EditText
+        android:id="@+id/Main_editText_accessGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/MainEditTextIDString"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Main_button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/MainButtonSubmitIDString"
+        app:layout_constraintStart_toStartOf="@+id/Main_editText_accessGroup"
+        app:layout_constraintTop_toBottomOf="@+id/Main_editText_accessGroup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

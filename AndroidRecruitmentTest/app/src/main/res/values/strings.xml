@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Go Recruitment</string>
+    <string name="MainButtonSubmitIDString">Submit</string>
+    <string name="MainEditTextIDString">Input the session name</string>
+    <string name="MainTextViewTitleString">"Go \nRecruitment"</string>
+    <string name="MainImageLogoString">Easygoband Logo</string>
+    <string name="TicketTextSessionName">Session Name</string>
+    <string name="TicketTextAccessGroup">0</string>
+    <string name="TicketTextTotalUsesNum">0</string>
+    <string name="TicketTextAccessGroupName">AccessGroupName</string>
+    <string name="TicketTextName">Name</string>
+    <string name="TicketTextTotalUsesString">Total Uses: </string>
+    <string name="ListTextError">We couldn\'t found any ticket with the session id you entered.\nPlease make sure you enter the correct id</string>
+    <string name="DetailsTextAccessGroup">Access Group Name</string>
+    <string name="DetailsTextName">Name</string>
+    <string name="DetailsTextDate" >Error</string>
+    <string name="DetailsTextTotalUsesString">Total uses: </string>
+    <string name="DetailsTextTotalUsesNum">Error</string>
+    <string name="DetailsTextDateString">Last modified: </string>
+</resources>
